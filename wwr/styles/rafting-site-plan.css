@@ -1,22 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Patrick+Hand+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Shadows+Into+Light&display=swap');
 :root {
-    --primary-color: #24d4e4; 
-    --secondary-color: #f8820b;
-    --accent1-color: #a2a79e;
+    --primary-color: #006989;
+    --secondary-color: #57a773;
+    --accent1-color: #ffc857;
     --accent2-color: #ffffff;
 
-    --heading-font: 'font-family: 'Montserrat', sans-serif;', serif; 
-    --paragraph-font: 'font-family: 'Patrick Hand SC', cursive;', serif;
+    --heading-font: "Shadows Into Light";
+    --paragraph-font: Montserrat, Helvetica, sans-serif;
     
-    --nav-background-color: #24d4e4;
-    --nav-link-color: #a2a79e;
-    --nav-hover-link-color: #f8820b;
-    --nav-hover-background: #ffffff;
+    --nav-background-color: #57a773;
+    --nav-link-color: #ffffff;
+    --nav-hover-link-color: #ffc857;
+    --nav-hover-background: #006989;
 }
 body {
     font-family: var(--paragraph-font);
     max-width: 960px ;
-    padding: 20px;
+    padding: 4em;
+    font-size: 18px;
+    text-align: center;
+    margin: 0 auto;
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
@@ -33,6 +36,7 @@ nav {
     background-color: var(--nav-background-color);
     font-size: 1.2rem;
     display: flex;
+    text-align: center;
 }
 nav a {
     display: block;
