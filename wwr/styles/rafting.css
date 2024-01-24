@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Shadows+Into+Light&display=swap');
+:root {
+    --primary-color: #006989;
+    --secondary-color: #57a773;
+    --accent1-color: #ffc857;
+    --accent2-color: #ffffff;
+
+    --heading-font: "Shadows Into Light";
+    --paragraph-font: Montserrat, Helvetica, sans-serif;
+    
+    --nav-background-color: #57a773;
+    --nav-link-color: #ffffff;
+    --nav-hover-link-color: #ffc857;
+    --nav-hover-background: #006989;
+}
+h1, h2 {
+    font-family: var(--heading-font);
+    color: var(--accent1-color);
+    }
+p {
+    padding: 25px;
+    font-family: var(--paragraph-font);
+}
+nav {
+    background-color: var(--primary-color);
+    font-size: 1.2rem;
+    display: flex;
+    text-align: center;
+}
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: dotted;
+    padding: 1rem;
+}
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-background-color);
+}
+footer {
+    background-color: #ffffff;
+    color: #57a773;
+    padding: 25px 50px;
+    margin-top: 200px;
+}
