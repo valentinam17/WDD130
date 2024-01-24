@@ -13,6 +13,14 @@
     --nav-hover-link-color: #ffc857;
     --nav-hover-background: #006989;
 }
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px ;
+    padding: 4em;
+    font-size: 18px;
+    text-align: center;
+    margin: 0 auto;
+}
 h1, h2 {
     font-family: var(--heading-font);
     color: var(--accent1-color);
@@ -22,14 +30,14 @@ p {
     font-family: var(--paragraph-font);
 }
 nav {
-    background-color: var(--primary-color);
+    background-color: var(--accent2-color);
     font-size: 1.2rem;
     display: flex;
     text-align: center;
 }
 nav a {
     display: block;
-    color: var(--nav-link-color);
+    color: var(--primary-color);
     text-decoration: dotted;
     padding: 1rem;
 }
