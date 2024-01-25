@@ -21,6 +21,9 @@ body {
     text-align: center;
     margin: 0 auto;
 }
+.hero {
+    position: relative;
+}
 h1, h2 {
     font-family: var(--heading-font);
     color: var(--accent1-color);
@@ -39,8 +42,9 @@ nav a {
     display: block;
     color: var(--primary-color);
     text-decoration: dotted;
-    padding: 1rem;
-}
+    min-width: 50px;
+    padding: 1em; 
+} 
 nav a:hover {
     color: var(--nav-hover-link-color);
     background-color: var(--nav-background-color);
