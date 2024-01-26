@@ -15,8 +15,6 @@
 }
 .logo {
     width: 225px;
-}
-#logo_link {
     padding-top: 5px;
 }
 body {
@@ -37,11 +35,13 @@ h1 {
     font-family: var(--heading-font);
     color: var(--accent1-color);
     position: absolute;
+    text-align: center;
 }
 .article img {
     position: absolute;
     float: left;
     width: 300px;
+    clear:both;
 }
 h2 {
     font-family: var(--heading-font);
