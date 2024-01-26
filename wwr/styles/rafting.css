@@ -13,6 +13,12 @@
     --nav-hover-link-color: #ffc857;
     --nav-hover-background: #006989;
 }
+.logo {
+    width: 225px;
+}
+#logo_link {
+    padding-top: 5px;
+}
 body {
     font-family: var(--paragraph-font);
     max-width: 960px ;
@@ -21,13 +27,26 @@ body {
     text-align: center;
     margin: 0 auto;
 }
-.hero {
+.hero img {
     position: relative;
+    display: block;
+    height:auto;
+    width: 100%;
 }
-h1, h2 {
+h1 {
     font-family: var(--heading-font);
     color: var(--accent1-color);
-    }
+    position: absolute;
+}
+.article img {
+    position: absolute;
+    float: left;
+    width: 300px;
+}
+h2 {
+    font-family: var(--heading-font);
+    color: var(--accent1-color);
+}
 p {
     padding: 25px;
     font-family: var(--paragraph-font);
