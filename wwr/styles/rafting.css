@@ -31,7 +31,7 @@ body {
 .overlay-text {
     position: absolute;
     bottom: 9.2em;
-    right: 43%;
+    right: 45%;
 }
 .overlay-text-p{
     position: absolute;
@@ -113,21 +113,22 @@ nav a:hover {
     color: var(--nav-background-color);
     background-color: var(--accent2-color);
 }
-.adventure {
-    display: flex;
-    align-items: center; 
-    justify-content: space-between;
-} 
+/* .adventure {
+    
+
+} */ 
 .adventure img {
     width: 180px;
+    align-items: center;
+
 }
 footer p {
     font-family: var(--paragraph-font);
     color: #006989;
     width: 80%;
-    display: flex;
-    align-items: center;
-    justify-content: right;
+    position: relative;
+    top: 80px;
+    left: 330px;
 }
 footer img {
     width: 50px; 
