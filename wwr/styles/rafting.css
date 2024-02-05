@@ -123,10 +123,9 @@ nav a:hover {
     right: 10%; 
 }
 .adventure img {
-    width: 115px;
+    width: 125px;
     height: 100px;
-    right: 140%;
-
+    /*left: 80%;*/
 }
 footer p {
     font-family: var(--paragraph-font);
@@ -135,9 +134,9 @@ footer p {
     position: relative;
     top: 95px;
     left: 330px;
-    margin-top: 60px;
+    margin-top: 80px;
 }
 footer img {
     width: 50px; 
-    margin-top: 30px;
+    margin-top: 20px;
 } 
