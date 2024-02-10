@@ -16,20 +16,20 @@
         <form>
             <fieldset>
                 <legend>Quiz</legend>
-                <label for="q1">What Does HTML Stand For?</label>
+                <label for="q1">What does HTML stand For?</label>
                     <input type="text" name="q1" id="q1">
                 <label for="q2">How can CSS flexbox help with styling the page?</label>
                     <input type="text" name="q2" id="q2">
                 <label for="q3">Which of these is the proper way to declare a class on the CSS page?</label>
-                    <select id="q3" name="q3">
-                        <option value=".box">.box</option>
-                        <option value="box">box</option>
-                        <option value="#box">#box</option>
+                    <select type="checkbox" id="q3" name="q3">
+                        <option value=" .box">.box</option>
+                        <option value=" box"> box</option>
+                        <option value=" #box">#box</option>
                     </select>
                 <label for="q4">What is the green color amount in this hexidecimal color value #00aa9a?</label>
                     <input type="number" id="q4" name="q4" min="0" max="100" placeholder="rgb">
-
             </fieldset>
+            <button type="submit">Submit</button>
         </form>
     </main>
     <footer>
