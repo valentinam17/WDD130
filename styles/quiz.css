@@ -44,10 +44,10 @@ input [type="checkbox"] {
     height: 22px;
     vertical-align: bottom;
 }
-botton {
+button {
     margin: 1rem; 
-    background-color: aqua;
-    color: bisque;
+    background-color: black;
+    color: white;
     border: solid; 
     border-radius: 2rem;
     padding: .75rem;
@@ -58,6 +58,6 @@ footer {
     width: 650px;
     text-align: center;
     font-size: 0.8em;
-    color: blueviolet;
-    border-top: 1px solid #999;
+    color: navy;
+    border-top: 1px solid black;
 }
