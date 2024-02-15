@@ -132,35 +132,6 @@ nav a:hover {
     height: 100px;
     /*left: 80%;*/
 }
-.middle-contact {
-    font-family: var(--paragraph-font);
-    color: #006989;
-    width: 45%;
-    top: 5em;
-    right: 40%; 
-    position: absolute;
-}
-.middle-contact img {
-    position: relative;
-    width: 40%;
-    left: 75%; 
-    top: 6em;     
-}
-.adventure-contact {
-    display: flex;
-    flex-direction: horizontal; 
-    width: 65%; 
-    position: relative;
-}
-.adventure-contact img {
-    width: 300px;
-    height: 120px;
-}
-.one-c {
-    position: relative;
-    top: 14em; 
-    left: 55%;
-}
 footer p {
     font-family: var(--paragraph-font);
     color: #006989;
@@ -168,11 +139,11 @@ footer p {
     position: absolute;
     top:68.5em;
     left: 35%;
-    margin-top: 60px;
+    margin-top: 60px; 
 }
 footer img {
     width: 45px; 
     top: 12em;
     position: relative;
     right: 55%; 
-} 
+}
