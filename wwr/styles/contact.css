@@ -57,7 +57,7 @@ nav a:hover {
     width: 55%; 
     position: relative;
     top: 5em;
-    left: 12%; 
+    left: 25%; 
 }
 .adventure-contact img {
     width: 300px;
@@ -103,7 +103,7 @@ form {
     display: grid; 
     position: absolute;
     top: 20em;
-    left: 2.5%;
+    left: 15%;
 }  
 fieldset {
     display: grid;
