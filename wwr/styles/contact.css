@@ -73,18 +73,18 @@ footer p {
     color: #006989;
     width: 70%; 
     left: 60%;
-    top: 95em; 
+    top: 105em; 
     position: relative;
 }
-/* footer nav {
-    width: 55px; 
-    top: 61em;
-    right: 50%; 
+footer nav {
+    width: 600px; 
+    top: 47em;
+    right: 60%; 
     position: relative;
-} */
-/* footer img {
-    max-width: 50px; 
-} */
+} 
+footer img {
+    width: 60px; 
+}
 * {
     margin: 0; 
     padding: 0; 
