@@ -41,22 +41,23 @@ nav a:hover {
 .middle-contact {
     font-family: var(--paragraph-font);
     color: #006989;
-    width: 55%;
-    top: 1em;
-    right: 40%; 
-    position: absolute;
+    width: 50%;
+    bottom: 7em;
+    left: 15%; 
+    position: relative;
 }
 .middle-contact img {
     position: relative;
     width: 32%;
     left: 75%; 
-    top: 8em;     
+    top: 7em;     
 }
 .adventure-contact {
     display: flex;
-    width: 70%; 
+    width: 55%; 
     position: relative;
-    bottom: 7em;
+    top: 5em;
+    right: 13%; 
 }
 .adventure-contact img {
     width: 300px;
@@ -64,24 +65,26 @@ nav a:hover {
 }
 .one-c {
     position: relative;
-    top: 15em; 
-    left: 55%;
+    top: 16em; 
+    left: 45%;
 }
 footer p {
     font-family: var(--paragraph-font);
     color: #006989;
-    width: auto; 
-    left: 90%;
-    top: 60em; 
-    margin-top: 20px; 
+    width: 70%; 
+    left: 60%;
+    top: 95em; 
     position: relative;
 }
-footer nav {
+/* footer nav {
     width: 55px; 
-    top: 30em;
+    top: 61em;
     right: 50%; 
     position: relative;
-} 
+} */
+/* footer img {
+    max-width: 50px; 
+} */
 * {
     margin: 0; 
     padding: 0; 
@@ -94,13 +97,13 @@ label, button, input, select, text {
 form {
     width: 600px; 
     margin: 0 auto; 
-    padding: 1.2rem; 
+    padding: 1.5rem; 
     border: 1px solid #000; 
     background-color: aliceblue;
     display: grid; 
     position: absolute;
-    top: 10em;
-    left: 30%;
+    top: 20em;
+    left: 2.5%;
 }  
 fieldset {
     display: grid;
@@ -142,6 +145,6 @@ footer {
     text-align: center;
     font-size: 0.8em;
     color: var(--nav-background-color);
-    border-top: 1px solid black;
+   /* border-top: 1px solid black; */
 }
 
