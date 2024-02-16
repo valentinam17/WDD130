@@ -57,7 +57,7 @@ nav a:hover {
     width: 55%; 
     position: relative;
     top: 5em;
-    right: 13%; 
+    left: 12%; 
 }
 .adventure-contact img {
     width: 300px;
@@ -65,15 +65,15 @@ nav a:hover {
 }
 .one-c {
     position: relative;
-    top: 16em; 
-    left: 45%;
+    top: 12em; 
+    right: 18%;
 }
 footer p {
     font-family: var(--paragraph-font);
     color: #006989;
     width: 70%; 
     left: 60%;
-    top: 105em; 
+    top: 90em; 
     position: relative;
 }
 footer nav {
