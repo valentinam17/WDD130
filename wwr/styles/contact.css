@@ -49,15 +49,15 @@ nav a:hover {
     font-family: var(--paragraph-font);
     color: #006989;
     width: 50%;
-    bottom: 7em;
-    left: 15%; 
+    bottom: 8em;
+    left: 10%; 
     position: relative;
 }
-.middle-contact img {
+.middle-contact iframe {
     position: relative;
-    width: 32%;
-    left: 75%; 
-    top: 7em;     
+    width: 70%;
+    left: 90%; 
+    top: 6em;     
 }
 .adventure-contact {
     display: flex;
