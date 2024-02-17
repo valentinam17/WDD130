@@ -16,6 +16,13 @@
 .logo {
     width: 160px;
 }
+h1 {
+    position: relative; 
+    bottom: 2em; 
+    left: 4.5%; 
+    color: var(--accent1-color);
+    font-family: var(--heading-font); 
+}
 body {
     font-family: var(--paragraph-font);
     max-width: 960px ;
