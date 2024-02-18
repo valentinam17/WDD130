@@ -103,11 +103,11 @@ nav {
     /*text-align: center;*/
     /*padding-left: 80px*/
 }
-nav a {
+nav a{
     display: flex;
     flex-direction: horizontal;
     color: var(--primary-color);
-    min-width: 80px;
+    min-width: 70px;
     padding: 25px 25px;
 } 
 nav a:hover {
@@ -141,9 +141,13 @@ footer p {
     left: 35%;
     margin-top: 60px; 
 }
-footer img {
+footer nav {
     width: 45px; 
     top: 12em;
     position: relative;
-    right: 55%; 
+    right: 20%; 
+    padding: 4px 4px; 
+}
+footer img {
+    width: 25px; 
 }
