@@ -30,7 +30,7 @@ body {
 }
 .overlay-text {
     position: absolute;
-    bottom: 9.2em;
+    bottom: 9em;
     right: 45%;
 }
 .overlay-text-p{
@@ -59,12 +59,12 @@ article p {
 .middle img {
     position: relative;
     top: 6em;
-    left: 73%; 
+    left: 95%; 
     width: 300px;
 }
 .overlay-text-two {
     position: absolute;
-    top: 7.7em; 
+    top: 8.5em; 
     left: 45%;
 }
 .overlay-text-pp{
