@@ -124,7 +124,7 @@ nav a:hover {
 .adventure {
     display: flex; 
     flex-direction: row; 
-    left: 16%; 
+    left: 10%; 
     position: absolute;
     width: 79%;
     top: 105em; 
