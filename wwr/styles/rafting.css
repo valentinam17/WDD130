@@ -198,9 +198,9 @@ form {
     border: 1px solid #000; 
     background-color: aliceblue;
     display: grid; 
-    position: absolute;
-    top: 55em;
-    left: 30%;
+    position: relative;
+    top: 15em;
+    left: 2%;
 }  
 fieldset {
     display: grid;
@@ -210,7 +210,7 @@ fieldset {
     padding: 1rem; 
 }
 legend {
-    padding: 0.5rem;
+    padding: .05rem;
     color: navy; 
     font-size: 1.3em; 
 }

@@ -47,21 +47,32 @@
                                 <label for="useremail">Email:</label>
                                 <input type="email" id="useremail" name="useremail">
                         </fieldset>
-                        <fieldset>
-                            <legend>Purpose</legend>
-                            <label for="browser">Purpose for your Message</label>
-                            <select id="browser" name="browser">
-                                <option value="chrome">General Inquiry</option>
-                                <option value="firefox">Reservation Question</option>
-                                <option value="safari">Website Suggestions</option>
-                                <option value="edge">All Other Inquiries</option>
-                            </select>
-                            <label for="feedback">Message</label>
-                            <textarea id="feedback" name="feedback" rows="4" placeholder="Please type your message here"></textarea>
-                        </fieldset>
-                        <button type="submit">Submit</button>
                     </form>
-                </section>
+               </section>
+               <form>
+                       <fieldset>
+                           <legend>Purpose</legend>
+                           <div>
+                            <input type="radio" id="general" name="purpose" value="huey" checked />
+                            <label for="general">General Inquiry</label>
+                          </div>
+                        <div>
+                            <input type="radio" id="reservation" name="drone" value="reservation" />
+                            <label for="reservation">Reservation Question</label>
+                          </div>
+                        <div>
+                            <input type="radio" id="website" name="drone" value="website" />
+                            <label for="website">Website Question</label>
+                          </div>
+                        </fieldset>
+                    </form>
+                    <form>
+                        <fieldset>
+                            <legend>Message</legend>
+                            <textarea id="feedback" name="feedback" rows="4" placeholder="Please type your message here"></textarea>
+                            <button type="submit">Submit</button>
+                        </fieldset>
+                    </form>
         </main>
            <footer>
                 <p>©️2024 Contact | Valentina Melendez | WDD 130 Section A5 | <a href="https://wireframe.cc/o8cjgC">Wireframe</a></p>
