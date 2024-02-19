@@ -29,6 +29,12 @@ body {
     height: auto;
     top: 4em; 
 }
+.hero-2 {
+    position: relative;
+    width: 110%;
+    bottom: 4em;
+    right: 5%; 
+}
 .overlay-text {
     position: absolute;
     bottom: 7em;
@@ -94,6 +100,13 @@ article p {
     top: 30em; 
     left: 37%;
 }
+h1 {
+    font-family: var(--heading-font);
+    color: var(--accent1-color);
+    font-size: 55px;
+    position: relative;
+    bottom: 2em; 
+}
 h2 {
     font-family: var(--heading-font);
     color: var(--accent1-color);
@@ -129,14 +142,40 @@ nav a:hover {
     width: 79%;
     top: 105em; 
 }
+.adventure-two {
+    display: flex; 
+    flex-direction: row; 
+    right: 20%; 
+    position: relative;
+    width: 10%;
+    top: 8em; 
+}
 .one {
     position: relative;
     top: 8em; 
     right: 12%; 
 }
+.two {
+    position: relative;
+    top: 6em; 
+    right: 260%; 
+    font-family: var(--heading-font);
+    color: var(--accent1-color);
+    font-size: 40px;
+    text-decoration: none;
+}
+.two:hover {
+    color: var(--secondary-color);
+    background-color: var(--accent2-color);
+}
 .adventure img {
     width: 125px;
     height: 100px;
+    /*left: 80%;*/
+}
+.adventure-two img {
+    width: 320px;
+    height: 250px;
     /*left: 80%;*/
 }
 footer p {
@@ -235,4 +274,37 @@ button {
     border-radius: 2rem;
     padding: .75rem;
     font-size: 1.2rem;
+}
+.button-t {
+    margin: 4rem; 
+    background-color: var(--accent2-color);
+    color: var(--primary-color);
+    border: solid; 
+    border-radius: 3rem;
+    padding: .75rem;
+    font-size: 3rem;
+    position: relative;
+    bottom: 5em; 
+}
+.button-t:hover {
+    color: var(--secondary-color);
+    background-color: var(--nav-hover-link-color);
+}
+table {
+    font-family: var(--heading-font);
+    font-size: 45px;
+    width: 100%;
+    right: 5%; 
+    position: relative;
+    top: 10em; 
+} 
+table, th, td {    
+    border: 3px dotted #006989;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    color: #57a773; 
+}
+table, td:hover {
+    color: var(--primary-color);
+    background-color: var(--accent1-color);
 }
