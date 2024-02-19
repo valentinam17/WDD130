@@ -112,7 +112,7 @@ nav {
 }
 nav a{
     display: flex;
-    flex-direction: horizontal;
+    flex-direction: row;
     color: var(--primary-color);
     min-width: 70px;
     padding: 25px 25px;
@@ -123,7 +123,7 @@ nav a:hover {
 }
 .adventure {
     display: flex; 
-    flex-direction: horizontal; 
+    flex-direction: row; 
     left: 16%; 
     position: absolute;
     width: 79%;
