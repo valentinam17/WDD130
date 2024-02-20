@@ -35,6 +35,12 @@ body {
     bottom: 4em;
     right: 5%; 
 }
+.hero-3 {
+    position: relative;
+    width: 100%;
+    top: 2em;
+    right: 3.5%; 
+}
 .overlay-text {
     position: absolute;
     bottom: 7em;
@@ -49,6 +55,14 @@ body {
     right: 40%;
     left: 28%;
 }
+.overlay-text-h {
+    position: absolute;
+    top: 2em;
+    right: 30%;
+    font-size: 55px;
+    font-family: var(--heading-font);
+    color: #ffc857;
+} 
 article img {
     max-width: 15%;
     position: absolute;
@@ -307,4 +321,19 @@ table, th, td {
 table, td:hover {
     color: var(--primary-color);
     background-color: var(--accent1-color);
+}
+.button-h {
+    margin: 3rem; 
+    background-color: var(--accent2-color);
+    color: var(--primary-color);
+    border: dotted; 
+    border-radius: 3rem;
+    padding: .75rem;
+    font-size: 2rem;
+    position: relative;
+    bottom: 4em; 
+}
+.button-h:hover {
+    color: var(--secondary-color);
+    background-color: var(--nav-hover-link-color);
 }
