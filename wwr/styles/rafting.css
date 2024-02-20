@@ -176,7 +176,7 @@ nav a:hover {
     top: 5em; 
     right: 240%; 
     font-family: var(--heading-font);
-    color: var(--accent1-color);
+    color: var(--secondary-color);
     font-size: 40px;
     text-decoration: none;
 }
@@ -242,6 +242,7 @@ footer img {
     position: relative;
     top: 10em; 
     right: 18%;
+    font-family: var(--paragraph-font);
 }
 label, button, input, select, text {
     font-family: var(--paragraph-font)
@@ -320,7 +321,7 @@ table, th, td {
     border: 3px dotted #006989;
     border-collapse: collapse;
     background-color: #ffffff;
-    color: #57a773; 
+    color: var(--accent1-color); 
 }
 table, td:hover {
     color: var(--primary-color);
@@ -342,4 +343,46 @@ table, td:hover {
 .button-h:hover {
     color: var(--secondary-color);
     background-color: var(--nav-hover-link-color);
+}
+.hero-h {
+    position: relative;
+    width: 80%;
+    top: 25em;
+    right: 20%; 
+}
+h3 {
+    font-family: var(--heading-font);
+    color: var(--accent1-color);
+    font-size: 30px;
+    position: relative;
+    top: 3em; 
+    left: 47%;
+    border: 2px solid #006989; 
+    padding: 6rem;
+    width: 40%;  
+}
+.home {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+    font-size: 40px;
+    position: relative;
+    top: 5em; 
+    left: 27%; 
+}
+.button-l {
+    margin: 3rem; 
+    width: 25%;
+    background-color: var(--accent2-color);
+    color: var(--primary-color);
+    border: dotted; 
+    border-radius: 3rem;
+    padding: .75rem;
+    font-size: 2rem;
+    position: relative;
+    bottom: 1em; 
+    left: 57%; 
+}
+.button-l:hover {
+    color: var(--accent2-color);
+    background-color: var(--secondary-color);
 }
